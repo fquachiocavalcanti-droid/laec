@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Mateus Quachio Cavalcanti</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Cabeçalho -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Mateus Quachio Cavalcanti</h1>
+      <nav>
+        <ul class="flex gap-4 text-sm">
+          <li><a href="#sobre" class="hover:text-blue-600">Sobre</a></li>
+          <li><a href="#habilidades" class="hover:text-blue-600">Habilidades</a></li>
+          <li><a href="#formacao" class="hover:text-blue-600">Formação</a></li>
+          <li><a href="#projetos" class="hover:text-blue-600">Projetos</a></li>
+          <li><a href="#contato" class="hover:text-blue-600">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main class="max-w-5xl mx-auto px-6 py-10 space-y-12">
+
+    <!-- Sobre mim -->
+    <section id="sobre" class="text-center">
+      <img src="https://via.placeholder.com/150" alt="Foto de perfil" class="mx-auto rounded-full mb-4 shadow-md">
+      <h2 class="text-xl font-semibold mb-2">Sobre mim</h2>
+      <p class="max-w-2xl mx-auto text-gray-600">
+        Olá! Prazer, sou o Mateus Quachio Cavalcanti, tenho 16 anos e sou estudante do IFMS de Nova Andradina.
+        Faço curso técnico em Informática e gosto muito de conversar, fazer amizades e aprender coisas novas.
+      </p>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="text-center">
+      <h2 class="text-xl font-semibold mb-6">Habilidades e Objetivos</h2>
+      <div class="flex flex-wrap justify-center gap-3">
+        <span class="bg-blue-100 px-4 py-2 rounded text-sm">HTML</span>
+        <span class="bg-blue-100 px-4 py-2 rounded text-sm">Visual Studio</span>
+        <span class="bg-blue-100 px-4 py-2 rounded text-sm">Git & GitHub</span>
+        <span class="bg-blue-100 px-4 py-2 rounded text-sm">Passar em Engenharia Civil</span>
+        <span class="bg-blue-100 px-4 py-2 rounded text-sm">Concluir o IFMS 🙏</span>
+      </div>
+    </section>
+
+    <!-- Formação -->
+    <section id="formacao">
+      <h2 class="text-xl font-semibold text-center mb-6">Formação</h2>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="font-semibold">Técnico em Informática - IFMS</h3>
+        <p class="text-gray-600 text-sm mt-1">
+          Cursando desenvolvimento web e aprendendo sobre HTML e CSS.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos">
+      <h2 class="text-xl font-semibold text-center mb-6">Projetos</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h3 class="font-semibold">Projeto 1</h3>
+          <p class="text-sm text-gray-600 mt-2">
+            Um site simples de portfólio criado com HTML e Tailwind CSS.
+          </p>
+          <a href="https://github.com/fquachiocavalcanti-droid/laec" 
+             target="_blank" 
+             class="text-blue-600 text-sm underline mt-3 inline-block">
+             Ver no GitHub
+          </a>
+        </div>
+
+        <div class="bg-white p-5 rounded-lg shadow">
+          <h3 class="font-semibold">Projeto 2</h3>
+          <p class="text-sm text-gray-600 mt-2">
+            Layout de uma página responsiva feita com Tailwind CSS.
+          </p>
+          <a href="https://github.com/fquachiocavalcanti-droid/laec" 
+             target="_blank" 
+             class="text-blue-600 text-sm underline mt-3 inline-block">
+             Ver no GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="text-center">
+      <h2 class="text-xl font-semibold mb-4">Contato</h2>
+      <p class="text-gray-600 mb-4">Entre em contato comigo:</p>
+      <ul class="space-y-2 text-sm">
+        <li>📱 Telefone: <span class="font-medium">(67) 99997-7131</span></li>
+        <li>📸 Instagram: 
+          <a href="https://www.instagram.com/mateus_px86/" 
+             target="_blank" 
+             class="text-blue-600 underline hover:text-blue-800">
+             @mateus_px86
+          </a>
+        </li>
+        <li>💻 GitHub: 
+          <a href="https://github.com/fquachiocavalcanti-droid/laec" 
+             target="_blank" 
+             class="text-blue-600 underline hover:text-blue-800">
+             github.com/fquachiocavalcanti-droid/laec
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-200 py-4 text-center text-sm text-gray-600 mt-10">
+    © Mateus Quachio Cavalcanti — Feito com HTML e Tailwind CSS |
+    <a href="https://github.com/fquachiocavalcanti-droid/laec" 
+       target="_blank" 
+       class="text-blue-600 underline hover:text-blue-800">
+       Meu GitHub
+    </a>
+  </footer>
+
+</body>
+</html>
